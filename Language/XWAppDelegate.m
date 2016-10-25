@@ -16,7 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    XWViewController * rootVC=[[XWViewController alloc]initWithNibName:@"XWViewController" bundle:nil];
+    XWViewController * rootVC=[[XWViewController alloc]initWithNibName:@"XWViewController" bundle:[NSBundle mainBundle]];
     self.window.rootViewController=rootVC;
     
     [self.window makeKeyAndVisible];
@@ -26,7 +26,7 @@
 -(void)changeRootVC{
     
     [UIView animateWithDuration:0.5 animations:^{
-        XWViewController * rootVC=[[XWViewController alloc]initWithNibName:@"XWViewController" bundle:nil];
+        XWViewController * rootVC=[[XWViewController alloc]initWithNibName:@"XWViewController" bundle:currentBundle()];
         self.window.rootViewController=rootVC;
     }];
 }

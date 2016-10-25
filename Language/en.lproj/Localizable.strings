@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  XWAppLanguage
+
+  Created by viviwu on 2016/10/25.
+  Copyright © 2016年 viviwu. All rights reserved.
+*/
+
+lTitle ="Chinese Word";
+bSwitch ="Switch Language";

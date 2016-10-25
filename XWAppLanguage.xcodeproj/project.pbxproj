@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE623201DBEF509000B2689 /* XWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE623221DBEF509000B2689 /* XWViewController.xib */; };
+		0DE623261DBF0480000B2689 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE623241DBF0480000B2689 /* home.png */; };
+		0DE623301DBF0B88000B2689 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DE623321DBF0B88000B2689 /* Localizable.strings */; };
 		0DFF12BA1DBE1516009D6004 /* XWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */; };
 		0DFF12C11DBE15B3009D6004 /* XWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF12BF1DBE15B3009D6004 /* XWViewController.m */; };
-		0DFF12C21DBE15B3009D6004 /* XWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF12C01DBE15B3009D6004 /* XWViewController.xib */; };
 		0DFF12C41DBE1CAC009D6004 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */; };
 		DEFBA97A1A4AC4A900ADA2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA9791A4AC4A900ADA2F8 /* Foundation.framework */; };
 		DEFBA97C1A4AC4A900ADA2F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA97B1A4AC4A900ADA2F8 /* CoreGraphics.framework */; };
@@ -35,11 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE623211DBEF509000B2689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XWViewController.xib; sourceTree = "<group>"; };
+		0DE623231DBEF50B000B2689 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/XWViewController.xib"; sourceTree = "<group>"; };
+		0DE623251DBF0480000B2689 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/home.png; sourceTree = "<group>"; };
+		0DE623271DBF048B000B2689 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/home.png"; sourceTree = "<group>"; };
+		0DE623311DBF0B88000B2689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0DE623331DBF0B8A000B2689 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0DFF12B81DBE1516009D6004 /* XWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAppDelegate.h; sourceTree = "<group>"; };
 		0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAppDelegate.m; sourceTree = "<group>"; };
 		0DFF12BE1DBE15B3009D6004 /* XWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWViewController.h; sourceTree = "<group>"; };
 		0DFF12BF1DBE15B3009D6004 /* XWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWViewController.m; sourceTree = "<group>"; };
-		0DFF12C01DBE15B3009D6004 /* XWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWViewController.xib; sourceTree = "<group>"; };
 		0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0DFF12C51DBE1ED0009D6004 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		0DFF12C61DBE1ED0009D6004 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -86,7 +93,7 @@
 		DEFBA96D1A4AC4A900ADA2F8 = {
 			isa = PBXGroup;
 			children = (
-				DEFBA97F1A4AC4A900ADA2F8 /* Language */,
+				DEFBA97F1A4AC4A900ADA2F8 /* APPLanguage */,
 				DEFBA9981A4AC4A900ADA2F8 /* LanguageTests */,
 				DEFBA9781A4AC4A900ADA2F8 /* Frameworks */,
 				DEFBA9771A4AC4A900ADA2F8 /* Products */,
@@ -113,17 +120,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEFBA97F1A4AC4A900ADA2F8 /* Language */ = {
+		DEFBA97F1A4AC4A900ADA2F8 /* APPLanguage */ = {
 			isa = PBXGroup;
 			children = (
 				0DFF12B81DBE1516009D6004 /* XWAppDelegate.h */,
 				0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */,
 				0DFF12BE1DBE15B3009D6004 /* XWViewController.h */,
 				0DFF12BF1DBE15B3009D6004 /* XWViewController.m */,
-				0DFF12C01DBE15B3009D6004 /* XWViewController.xib */,
+				0DE623221DBEF509000B2689 /* XWViewController.xib */,
 				DEFBA98B1A4AC4A900ADA2F8 /* Images.xcassets */,
 				DEFBA9801A4AC4A900ADA2F8 /* Supporting Files */,
 			);
+			name = APPLanguage;
 			path = Language;
 			sourceTree = "<group>";
 		};
@@ -131,9 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				DEFBA9811A4AC4A900ADA2F8 /* XWAppLanguage-Info.plist */,
+				0DE623241DBF0480000B2689 /* home.png */,
 				DEFBA9821A4AC4A900ADA2F8 /* InfoPlist.strings */,
 				DEFBA9851A4AC4A900ADA2F8 /* main.m */,
 				DEFBA9871A4AC4A900ADA2F8 /* XWAppLanguage-Prefix.pch */,
+				0DE623321DBF0B88000B2689 /* Localizable.strings */,
 				0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -235,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFBA9841A4AC4A900ADA2F8 /* InfoPlist.strings in Resources */,
-				0DFF12C21DBE15B3009D6004 /* XWViewController.xib in Resources */,
+				0DE623201DBEF509000B2689 /* XWViewController.xib in Resources */,
+				0DE623261DBF0480000B2689 /* home.png in Resources */,
+				0DE623301DBF0B88000B2689 /* Localizable.strings in Resources */,
 				0DFF12C41DBE1CAC009D6004 /* Launch Screen.storyboard in Resources */,
 				DEFBA98C1A4AC4A900ADA2F8 /* Images.xcassets in Resources */,
 			);
@@ -281,6 +293,33 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0DE623221DBEF509000B2689 /* XWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE623211DBEF509000B2689 /* en */,
+				0DE623231DBEF50B000B2689 /* zh-Hans */,
+			);
+			name = XWViewController.xib;
+			sourceTree = "<group>";
+		};
+		0DE623241DBF0480000B2689 /* home.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE623251DBF0480000B2689 /* en */,
+				0DE623271DBF048B000B2689 /* zh-Hans */,
+			);
+			name = home.png;
+			sourceTree = "<group>";
+		};
+		0DE623321DBF0B88000B2689 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE623311DBF0B88000B2689 /* en */,
+				0DE623331DBF0B8A000B2689 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		DEFBA9821A4AC4A900ADA2F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

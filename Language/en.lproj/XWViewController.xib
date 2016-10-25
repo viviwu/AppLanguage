@@ -8,7 +8,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XWViewController">
             <connections>
+                <outlet property="imageView" destination="Sm3-2O-vaT" id="uDT-uv-Xqs"/>
                 <outlet property="label" destination="CTg-Bi-1Pk" id="P1e-o2-auS"/>
+                <outlet property="sBtn" destination="o5N-ED-eMI" id="IVz-d5-nTo"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -35,16 +37,27 @@
                         <action selector="changeLanguage:" destination="-1" eventType="touchUpInside" id="IoB-Kw-bat"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sm3-2O-vaT">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="1Z6-hO-sGt"/>
+                        <constraint firstAttribute="height" constant="100" id="9Gs-hJ-KPP"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="o5N-ED-eMI" firstAttribute="top" secondItem="CTg-Bi-1Pk" secondAttribute="bottom" constant="107" id="3wK-3C-FHw"/>
                 <constraint firstAttribute="trailing" secondItem="CTg-Bi-1Pk" secondAttribute="trailing" id="C3q-F6-UNj"/>
+                <constraint firstItem="Sm3-2O-vaT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DLM-7A-DR0"/>
                 <constraint firstItem="CTg-Bi-1Pk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="Eic-xj-g7q"/>
                 <constraint firstItem="o5N-ED-eMI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MV9-Cc-Kr1"/>
                 <constraint firstItem="CTg-Bi-1Pk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sa9-VX-tIz"/>
                 <constraint firstAttribute="trailing" secondItem="o5N-ED-eMI" secondAttribute="trailing" id="chM-b7-2uq"/>
+                <constraint firstAttribute="bottom" secondItem="Sm3-2O-vaT" secondAttribute="bottom" constant="148" id="fp1-Os-Wpp"/>
             </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="home.png" width="72" height="72"/>
+    </resources>
 </document>

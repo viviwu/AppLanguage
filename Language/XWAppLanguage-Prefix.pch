@@ -25,3 +25,24 @@
 #endif
 
 #define kAppDel ((XWAppDelegate *)[UIApplication sharedApplication].delegate)
+#define kScreen_W [UIScreen mainScreen].bounds.size.width
+#define kScreen_H [UIScreen mainScreen].bounds.size.height
+
+#define kUserDef [NSUserDefaults standardUserDefaults]
+#define kUserDef_OBJ(s) [[NSUserDefaults standardUserDefaults] objectForKey:s]
+
+static inline NSBundle* currentBundle() {
+    
+    NSUserDefaults* defs = [NSUserDefaults standardUserDefaults];
+    NSArray* languages = [defs objectForKey:@"AppleLanguages"];
+    NSString* preferredLang = [languages objectAtIndex:0];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:preferredLang ofType:@"lproj"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    if (!bundle) {
+        return [NSBundle mainBundle];
+    }
+    return bundle;
+}
+
+#define XWLString(key)   NSLocalizedStringFromTableInBundle(key,nil,currentBundle(),nil)
