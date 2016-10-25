@@ -3,7 +3,7 @@
 //  LanguageTests
 //
 //  Created by qway on 14/12/24.
-//  Copyright (c) 2014年 qway. All rights reserved.
+//  Copyright (c) 2014年 viviwu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

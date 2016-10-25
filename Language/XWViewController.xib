@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XWViewController">
+            <connections>
+                <outlet property="label" destination="CTg-Bi-1Pk" id="P1e-o2-auS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中文世界" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTg-Bi-1Pk">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="uad-zH-sQb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5N-ED-eMI">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="EUs-wc-dzr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="语言切换"/>
+                    <connections>
+                        <action selector="changeLanguage:" destination="-1" eventType="touchUpInside" id="IoB-Kw-bat"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="o5N-ED-eMI" firstAttribute="top" secondItem="CTg-Bi-1Pk" secondAttribute="bottom" constant="107" id="3wK-3C-FHw"/>
+                <constraint firstAttribute="trailing" secondItem="CTg-Bi-1Pk" secondAttribute="trailing" id="C3q-F6-UNj"/>
+                <constraint firstItem="CTg-Bi-1Pk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="Eic-xj-g7q"/>
+                <constraint firstItem="o5N-ED-eMI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MV9-Cc-Kr1"/>
+                <constraint firstItem="CTg-Bi-1Pk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sa9-VX-tIz"/>
+                <constraint firstAttribute="trailing" secondItem="o5N-ED-eMI" secondAttribute="trailing" id="chM-b7-2uq"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

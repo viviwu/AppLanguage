@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFF12BA1DBE1516009D6004 /* XWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */; };
+		0DFF12C11DBE15B3009D6004 /* XWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF12BF1DBE15B3009D6004 /* XWViewController.m */; };
+		0DFF12C21DBE15B3009D6004 /* XWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF12C01DBE15B3009D6004 /* XWViewController.xib */; };
+		0DFF12C41DBE1CAC009D6004 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */; };
 		DEFBA97A1A4AC4A900ADA2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA9791A4AC4A900ADA2F8 /* Foundation.framework */; };
 		DEFBA97C1A4AC4A900ADA2F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA97B1A4AC4A900ADA2F8 /* CoreGraphics.framework */; };
 		DEFBA97E1A4AC4A900ADA2F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA97D1A4AC4A900ADA2F8 /* UIKit.framework */; };
 		DEFBA9841A4AC4A900ADA2F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEFBA9821A4AC4A900ADA2F8 /* InfoPlist.strings */; };
 		DEFBA9861A4AC4A900ADA2F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBA9851A4AC4A900ADA2F8 /* main.m */; };
-		DEFBA98A1A4AC4A900ADA2F8 /* viviAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBA9891A4AC4A900ADA2F8 /* viviAppDelegate.m */; };
 		DEFBA98C1A4AC4A900ADA2F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFBA98B1A4AC4A900ADA2F8 /* Images.xcassets */; };
 		DEFBA9931A4AC4A900ADA2F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA9921A4AC4A900ADA2F8 /* XCTest.framework */; };
 		DEFBA9941A4AC4A900ADA2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFBA9791A4AC4A900ADA2F8 /* Foundation.framework */; };
@@ -32,20 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DEFBA9761A4AC4A900ADA2F8 /* Language.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Language.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFF12B81DBE1516009D6004 /* XWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAppDelegate.h; sourceTree = "<group>"; };
+		0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAppDelegate.m; sourceTree = "<group>"; };
+		0DFF12BE1DBE15B3009D6004 /* XWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWViewController.h; sourceTree = "<group>"; };
+		0DFF12BF1DBE15B3009D6004 /* XWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWViewController.m; sourceTree = "<group>"; };
+		0DFF12C01DBE15B3009D6004 /* XWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWViewController.xib; sourceTree = "<group>"; };
+		0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0DFF12C51DBE1ED0009D6004 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0DFF12C61DBE1ED0009D6004 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DEFBA9761A4AC4A900ADA2F8 /* XWAppLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWAppLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFBA9791A4AC4A900ADA2F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEFBA97B1A4AC4A900ADA2F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DEFBA97D1A4AC4A900ADA2F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DEFBA9811A4AC4A900ADA2F8 /* Language-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Language-Info.plist"; sourceTree = "<group>"; };
+		DEFBA9811A4AC4A900ADA2F8 /* XWAppLanguage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XWAppLanguage-Info.plist"; sourceTree = "<group>"; };
 		DEFBA9831A4AC4A900ADA2F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEFBA9851A4AC4A900ADA2F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEFBA9871A4AC4A900ADA2F8 /* Language-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Language-Prefix.pch"; sourceTree = "<group>"; };
-		DEFBA9881A4AC4A900ADA2F8 /* viviAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viviAppDelegate.h; sourceTree = "<group>"; };
-		DEFBA9891A4AC4A900ADA2F8 /* viviAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viviAppDelegate.m; sourceTree = "<group>"; };
+		DEFBA9871A4AC4A900ADA2F8 /* XWAppLanguage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XWAppLanguage-Prefix.pch"; sourceTree = "<group>"; };
 		DEFBA98B1A4AC4A900ADA2F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DEFBA9911A4AC4A900ADA2F8 /* LanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFBA9911A4AC4A900ADA2F8 /* XWAppLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWAppLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFBA9921A4AC4A900ADA2F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DEFBA99A1A4AC4A900ADA2F8 /* LanguageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageTests-Info.plist"; sourceTree = "<group>"; };
+		DEFBA99A1A4AC4A900ADA2F8 /* XWAppLanguageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XWAppLanguageTests-Info.plist"; sourceTree = "<group>"; };
 		DEFBA99C1A4AC4A900ADA2F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEFBA99E1A4AC4A900ADA2F8 /* LanguageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +96,8 @@
 		DEFBA9771A4AC4A900ADA2F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEFBA9761A4AC4A900ADA2F8 /* Language.app */,
-				DEFBA9911A4AC4A900ADA2F8 /* LanguageTests.xctest */,
+				DEFBA9761A4AC4A900ADA2F8 /* XWAppLanguage.app */,
+				DEFBA9911A4AC4A900ADA2F8 /* XWAppLanguageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,8 +116,11 @@
 		DEFBA97F1A4AC4A900ADA2F8 /* Language */ = {
 			isa = PBXGroup;
 			children = (
-				DEFBA9881A4AC4A900ADA2F8 /* viviAppDelegate.h */,
-				DEFBA9891A4AC4A900ADA2F8 /* viviAppDelegate.m */,
+				0DFF12B81DBE1516009D6004 /* XWAppDelegate.h */,
+				0DFF12B91DBE1516009D6004 /* XWAppDelegate.m */,
+				0DFF12BE1DBE15B3009D6004 /* XWViewController.h */,
+				0DFF12BF1DBE15B3009D6004 /* XWViewController.m */,
+				0DFF12C01DBE15B3009D6004 /* XWViewController.xib */,
 				DEFBA98B1A4AC4A900ADA2F8 /* Images.xcassets */,
 				DEFBA9801A4AC4A900ADA2F8 /* Supporting Files */,
 			);
@@ -118,10 +130,11 @@
 		DEFBA9801A4AC4A900ADA2F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEFBA9811A4AC4A900ADA2F8 /* Language-Info.plist */,
+				DEFBA9811A4AC4A900ADA2F8 /* XWAppLanguage-Info.plist */,
 				DEFBA9821A4AC4A900ADA2F8 /* InfoPlist.strings */,
 				DEFBA9851A4AC4A900ADA2F8 /* main.m */,
-				DEFBA9871A4AC4A900ADA2F8 /* Language-Prefix.pch */,
+				DEFBA9871A4AC4A900ADA2F8 /* XWAppLanguage-Prefix.pch */,
+				0DFF12C31DBE1CAC009D6004 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +151,7 @@
 		DEFBA9991A4AC4A900ADA2F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEFBA99A1A4AC4A900ADA2F8 /* LanguageTests-Info.plist */,
+				DEFBA99A1A4AC4A900ADA2F8 /* XWAppLanguageTests-Info.plist */,
 				DEFBA99B1A4AC4A900ADA2F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEFBA9751A4AC4A900ADA2F8 /* Language */ = {
+		DEFBA9751A4AC4A900ADA2F8 /* XWAppLanguage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFBA9A21A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "Language" */;
+			buildConfigurationList = DEFBA9A21A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "XWAppLanguage" */;
 			buildPhases = (
 				DEFBA9721A4AC4A900ADA2F8 /* Sources */,
 				DEFBA9731A4AC4A900ADA2F8 /* Frameworks */,
@@ -159,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = Language;
+			name = XWAppLanguage;
 			productName = Language;
-			productReference = DEFBA9761A4AC4A900ADA2F8 /* Language.app */;
+			productReference = DEFBA9761A4AC4A900ADA2F8 /* XWAppLanguage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEFBA9901A4AC4A900ADA2F8 /* LanguageTests */ = {
+		DEFBA9901A4AC4A900ADA2F8 /* XWAppLanguageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFBA9A51A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "LanguageTests" */;
+			buildConfigurationList = DEFBA9A51A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "XWAppLanguageTests" */;
 			buildPhases = (
 				DEFBA98D1A4AC4A900ADA2F8 /* Sources */,
 				DEFBA98E1A4AC4A900ADA2F8 /* Frameworks */,
@@ -177,9 +190,9 @@
 			dependencies = (
 				DEFBA9971A4AC4A900ADA2F8 /* PBXTargetDependency */,
 			);
-			name = LanguageTests;
+			name = XWAppLanguageTests;
 			productName = LanguageTests;
-			productReference = DEFBA9911A4AC4A900ADA2F8 /* LanguageTests.xctest */;
+			productReference = DEFBA9911A4AC4A900ADA2F8 /* XWAppLanguageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,29 +201,30 @@
 		DEFBA96E1A4AC4A900ADA2F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = vivi;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = qway;
+				CLASSPREFIX = XW;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = viviwu;
 				TargetAttributes = {
 					DEFBA9901A4AC4A900ADA2F8 = {
 						TestTargetID = DEFBA9751A4AC4A900ADA2F8;
 					};
 				};
 			};
-			buildConfigurationList = DEFBA9711A4AC4A900ADA2F8 /* Build configuration list for PBXProject "Language" */;
+			buildConfigurationList = DEFBA9711A4AC4A900ADA2F8 /* Build configuration list for PBXProject "XWAppLanguage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = DEFBA96D1A4AC4A900ADA2F8;
 			productRefGroup = DEFBA9771A4AC4A900ADA2F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEFBA9751A4AC4A900ADA2F8 /* Language */,
-				DEFBA9901A4AC4A900ADA2F8 /* LanguageTests */,
+				DEFBA9751A4AC4A900ADA2F8 /* XWAppLanguage */,
+				DEFBA9901A4AC4A900ADA2F8 /* XWAppLanguageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFBA9841A4AC4A900ADA2F8 /* InfoPlist.strings in Resources */,
+				0DFF12C21DBE15B3009D6004 /* XWViewController.xib in Resources */,
+				0DFF12C41DBE1CAC009D6004 /* Launch Screen.storyboard in Resources */,
 				DEFBA98C1A4AC4A900ADA2F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFBA98A1A4AC4A900ADA2F8 /* viviAppDelegate.m in Sources */,
+				0DFF12BA1DBE1516009D6004 /* XWAppDelegate.m in Sources */,
+				0DFF12C11DBE15B3009D6004 /* XWViewController.m in Sources */,
 				DEFBA9861A4AC4A900ADA2F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		DEFBA9971A4AC4A900ADA2F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEFBA9751A4AC4A900ADA2F8 /* Language */;
+			target = DEFBA9751A4AC4A900ADA2F8 /* XWAppLanguage */;
 			targetProxy = DEFBA9961A4AC4A900ADA2F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -268,6 +285,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DEFBA9831A4AC4A900ADA2F8 /* en */,
+				0DFF12C51DBE1ED0009D6004 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -276,6 +294,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DEFBA99C1A4AC4A900ADA2F8 /* en */,
+				0DFF12C61DBE1ED0009D6004 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -287,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -296,13 +316,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -315,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -335,20 +362,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -361,8 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
-				INFOPLIST_FILE = "Language/Language-Info.plist";
+				GCC_PREFIX_HEADER = "Language/XWAppLanguage-Prefix.pch";
+				INFOPLIST_FILE = "Language/XWAppLanguage-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "qway.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,8 +407,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
-				INFOPLIST_FILE = "Language/Language-Info.plist";
+				GCC_PREFIX_HEADER = "Language/XWAppLanguage-Prefix.pch";
+				INFOPLIST_FILE = "Language/XWAppLanguage-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "qway.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,7 +430,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LanguageTests/LanguageTests-Info.plist";
+				INFOPLIST_FILE = "LanguageTests/XWAppLanguageTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "qway.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -414,7 +449,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
-				INFOPLIST_FILE = "LanguageTests/LanguageTests-Info.plist";
+				INFOPLIST_FILE = "LanguageTests/XWAppLanguageTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "qway.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -424,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEFBA9711A4AC4A900ADA2F8 /* Build configuration list for PBXProject "Language" */ = {
+		DEFBA9711A4AC4A900ADA2F8 /* Build configuration list for PBXProject "XWAppLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFBA9A01A4AC4A900ADA2F8 /* Debug */,
@@ -433,21 +469,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFBA9A21A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "Language" */ = {
+		DEFBA9A21A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "XWAppLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFBA9A31A4AC4A900ADA2F8 /* Debug */,
 				DEFBA9A41A4AC4A900ADA2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DEFBA9A51A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "LanguageTests" */ = {
+		DEFBA9A51A4AC4A900ADA2F8 /* Build configuration list for PBXNativeTarget "XWAppLanguageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFBA9A61A4AC4A900ADA2F8 /* Debug */,
 				DEFBA9A71A4AC4A900ADA2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

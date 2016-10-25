@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Language.xcodeproj">
+      location = "self:/Users/viviwu/Desktop/Language/XWAppLanguage.xcodeproj">
    </FileRef>
 </Workspace>
